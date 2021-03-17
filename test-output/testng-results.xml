@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="115389" started-at="2021-03-11T14:46:10 CST" finished-at="2021-03-11T14:48:06 CST">
+  <suite name="Suite" duration-ms="41336" started-at="2021-03-16T14:48:35 CDT" finished-at="2021-03-16T14:49:16 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="115389" started-at="2021-03-11T14:46:10 CST" finished-at="2021-03-11T14:48:06 CST">
+    <test name="Test" duration-ms="41336" started-at="2021-03-16T14:48:35 CDT" finished-at="2021-03-16T14:49:16 CDT">
       <class name="Automation.Test3">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@6591f517]" name="SetUpTest" is-config="true" duration-ms="6962" started-at="2021-03-11T14:46:24 CST" finished-at="2021-03-11T14:46:31 CST">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@6591f517]" name="SetUpTest" is-config="true" duration-ms="1551" started-at="2021-03-16T14:48:39 CDT" finished-at="2021-03-16T14:48:40 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@6591f517]" name="BeginTest" duration-ms="24728" started-at="2021-03-11T14:47:19 CST" finished-at="2021-03-11T14:47:44 CST">
+        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@6591f517]" name="BeginTest" duration-ms="6964" started-at="2021-03-16T14:48:48 CDT" finished-at="2021-03-16T14:48:55 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@6591f517]" name="AfterTest" is-config="true" duration-ms="8663" started-at="2021-03-11T14:47:57 CST" finished-at="2021-03-11T14:48:06 CST">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@6591f517]" name="AfterTest" is-config="true" duration-ms="8747" started-at="2021-03-16T14:49:07 CDT" finished-at="2021-03-16T14:49:16 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- Automation.Test3 -->
       <class name="Automation.Test1">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@58c1c010]" name="SetUpTest" is-config="true" duration-ms="9205" started-at="2021-03-11T14:46:10 CST" finished-at="2021-03-11T14:46:20 CST">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@58c1c010]" name="SetUpTest" is-config="true" duration-ms="2320" started-at="2021-03-16T14:48:35 CDT" finished-at="2021-03-16T14:48:37 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@58c1c010]" name="Test" duration-ms="32076" started-at="2021-03-11T14:46:31 CST" finished-at="2021-03-11T14:47:03 CST">
+        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@58c1c010]" name="Test" duration-ms="3567" started-at="2021-03-16T14:48:40 CDT" finished-at="2021-03-16T14:48:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@58c1c010]" name="afterTest" is-config="true" duration-ms="9096" started-at="2021-03-11T14:47:44 CST" finished-at="2021-03-11T14:47:53 CST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@58c1c010]" name="afterTest" is-config="true" duration-ms="8696" started-at="2021-03-16T14:48:55 CDT" finished-at="2021-03-16T14:49:04 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Automation.Test1 -->
       <class name="Automation.Test2">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test2@5a4aa2f2]" name="SetUpTest" is-config="true" duration-ms="4298" started-at="2021-03-11T14:46:20 CST" finished-at="2021-03-11T14:46:24 CST">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test2@5a4aa2f2]" name="SetUpTest" is-config="true" duration-ms="1482" started-at="2021-03-16T14:48:37 CDT" finished-at="2021-03-16T14:48:39 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="FAIL" signature="BeginTest()[pri:0, instance:Automation.Test2@5a4aa2f2]" name="BeginTest" duration-ms="16052" started-at="2021-03-11T14:47:03 CST" finished-at="2021-03-11T14:47:19 CST">
+        <test-method status="FAIL" signature="BeginTest()[pri:0, instance:Automation.Test2@5a4aa2f2]" name="BeginTest" duration-ms="3998" started-at="2021-03-16T14:48:44 CDT" finished-at="2021-03-16T14:48:48 CDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
@@ -48,8 +48,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5575a8a1888ace40801c8b9d04977a9b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3c5e8e222d612b1cc4d18f1041a6f1d
 *** Element info: {Using=name, value=q}]]>
             </message>
             <full-stacktrace>
@@ -59,8 +59,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5575a8a1888ace40801c8b9d04977a9b
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3c5e8e222d612b1cc4d18f1041a6f1d
 *** Element info: {Using=name, value=q}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -111,7 +111,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test2@5a4aa2f2]" name="AfterTest" is-config="true" duration-ms="4190" started-at="2021-03-11T14:47:53 CST" finished-at="2021-03-11T14:47:57 CST">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test2@5a4aa2f2]" name="AfterTest" is-config="true" duration-ms="3935" started-at="2021-03-16T14:49:04 CDT" finished-at="2021-03-16T14:49:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
