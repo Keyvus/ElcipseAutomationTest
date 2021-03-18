@@ -30,7 +30,7 @@ public class Test3 {
 	    public void BeginTest() throws InterruptedException {
 
 	        System.out.println(SystemMessage2);
-	        driver.get("http://www.yahoo.co");
+	        driver.get("htwww.yahyfyfyfyyg");
 	        
 	        WebElement element = driver.findElement(By.name("p"));
 	        
