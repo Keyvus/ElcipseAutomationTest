@@ -1,82 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="71052" started-at="2021-03-17T15:27:50 CDT" finished-at="2021-03-17T15:29:02 CDT">
+  <suite name="Suite" duration-ms="30681" started-at="2021-03-18T14:33:42 CDT" finished-at="2021-03-18T14:34:12 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="71052" started-at="2021-03-17T15:27:50 CDT" finished-at="2021-03-17T15:29:02 CDT">
+    <test name="Test" duration-ms="30681" started-at="2021-03-18T14:33:42 CDT" finished-at="2021-03-18T14:34:12 CDT">
       <class name="Automation.Test3">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@f4168b8]" name="SetUpTest" is-config="true" duration-ms="1689" started-at="2021-03-17T15:27:54 CDT" finished-at="2021-03-17T15:27:56 CDT">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@2a40cd94]" name="SetUpTest" is-config="true" duration-ms="1433" started-at="2021-03-18T14:33:44 CDT" finished-at="2021-03-18T14:33:45 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@f4168b8]" name="BeginTest" duration-ms="7210" started-at="2021-03-17T15:28:33 CDT" finished-at="2021-03-17T15:28:40 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@f4168b8]" name="AfterTest" is-config="true" duration-ms="8832" started-at="2021-03-17T15:28:53 CDT" finished-at="2021-03-17T15:29:02 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-      </class> <!-- Automation.Test3 -->
-      <class name="Automation.Test1">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@6c9f5c0d]" name="SetUpTest" is-config="true" duration-ms="2506" started-at="2021-03-17T15:27:50 CDT" finished-at="2021-03-17T15:27:53 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@6c9f5c0d]" name="Test" duration-ms="30155" started-at="2021-03-17T15:27:56 CDT" finished-at="2021-03-17T15:28:26 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@6c9f5c0d]" name="afterTest" is-config="true" duration-ms="8737" started-at="2021-03-17T15:28:40 CDT" finished-at="2021-03-17T15:28:49 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- Automation.Test1 -->
-      <class name="Automation.Test2">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test2@2a40cd94]" name="SetUpTest" is-config="true" duration-ms="1327" started-at="2021-03-17T15:27:53 CDT" finished-at="2021-03-17T15:27:54 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpTest -->
-        <test-method status="FAIL" signature="BeginTest()[pri:0, instance:Automation.Test2@2a40cd94]" name="BeginTest" duration-ms="6811" started-at="2021-03-17T15:28:26 CDT" finished-at="2021-03-17T15:28:33 CDT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@2a40cd94]" name="BeginTest" duration-ms="6347" started-at="2021-03-18T14:33:49 CDT" finished-at="2021-03-18T14:33:55 CDT">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
-  (Session info: chrome=89.0.4389.82)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 914e61c170d0f7c4360656a22da65b57
-*** Element info: {Using=name, value=q}]]>
+              <![CDATA[expected [Testing for Exception] but found [Test 3: Preparing for test]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
-  (Session info: chrome=89.0.4389.82)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:51496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 914e61c170d0f7c4360656a22da65b57
-*** Element info: {Using=name, value=q}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:397)
-at org.openqa.selenium.By$ByName.findElement(By.java:303)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-at Automation.Test2.BeginTest(Test2.java:30)
+              <![CDATA[java.lang.AssertionError: expected [Testing for Exception] but found [Test 3: Preparing for test]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Automation.Test3.BeginTest(Test3.java:43)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,15 +59,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test2@2a40cd94]" name="AfterTest" is-config="true" duration-ms="3718" started-at="2021-03-17T15:28:49 CDT" finished-at="2021-03-17T15:28:53 CDT">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@2a40cd94]" name="AfterTest" is-config="true" duration-ms="8689" started-at="2021-03-18T14:34:04 CDT" finished-at="2021-03-18T14:34:12 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-      </class> <!-- Automation.Test2 -->
+      </class> <!-- Automation.Test3 -->
+      <class name="Automation.Test1">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@6c9f5c0d]" name="SetUpTest" is-config="true" duration-ms="2440" started-at="2021-03-18T14:33:42 CDT" finished-at="2021-03-18T14:33:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@6c9f5c0d]" name="Test" duration-ms="3066" started-at="2021-03-18T14:33:46 CDT" finished-at="2021-03-18T14:33:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@6c9f5c0d]" name="afterTest" is-config="true" duration-ms="8664" started-at="2021-03-18T14:33:55 CDT" finished-at="2021-03-18T14:34:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Automation.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
