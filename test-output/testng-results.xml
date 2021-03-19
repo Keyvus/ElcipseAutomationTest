@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11612" started-at="2021-03-18T14:45:16 CDT" finished-at="2021-03-18T14:45:27 CDT">
+  <suite name="Default suite" duration-ms="19020" started-at="2021-03-18T21:31:07 CDT" finished-at="2021-03-18T21:31:26 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11612" started-at="2021-03-18T14:45:16 CDT" finished-at="2021-03-18T14:45:27 CDT">
+    <test name="Default test" duration-ms="19020" started-at="2021-03-18T21:31:07 CDT" finished-at="2021-03-18T21:31:26 CDT">
       <class name="Automation.Test3">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@525b461a]" name="SetUpTest" is-config="true" duration-ms="2330" started-at="2021-03-18T14:45:16 CDT" finished-at="2021-03-18T14:45:18 CDT">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@525b461a]" name="SetUpTest" is-config="true" duration-ms="2487" started-at="2021-03-18T21:31:07 CDT" finished-at="2021-03-18T21:31:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="FAIL" signature="BeginTest()[pri:0, instance:Automation.Test3@525b461a]" name="BeginTest" duration-ms="519" started-at="2021-03-18T14:45:18 CDT" finished-at="2021-03-18T14:45:19 CDT">
-          <exception class="org.testng.TestException">
+        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@525b461a]" name="BeginTest" duration-ms="7762" started-at="2021-03-18T21:31:09 CDT" finished-at="2021-03-18T21:31:17 CDT">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-Expected exception of type class java.lang.AssertionError but got org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8da184a5305022cfc443f2130514faad]]>
+              <![CDATA[expected [Testing for Exception] but found [Test 3: Preparing for test]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestException: 
-Expected exception of type class java.lang.AssertionError but got org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8da184a5305022cfc443f2130514faad
-at org.testng.internal.ExpectedExceptionsHolder.wrongException(ExpectedExceptionsHolder.java:68)
-at org.testng.internal.TestInvoker.considerExceptions(TestInvoker.java:739)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:634)
+              <![CDATA[java.lang.AssertionError: expected [Testing for Exception] but found [Test 3: Preparing for test]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Automation.Test3.BeginTest(Test3.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -57,39 +53,13 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\keyvu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8da184a5305022cfc443f2130514faad
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at Automation.Test3.BeginTest(Test3.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-... 22 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@525b461a]" name="AfterTest" is-config="true" duration-ms="8679" started-at="2021-03-18T14:45:19 CDT" finished-at="2021-03-18T14:45:27 CDT">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@525b461a]" name="AfterTest" is-config="true" duration-ms="8714" started-at="2021-03-18T21:31:17 CDT" finished-at="2021-03-18T21:31:26 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
