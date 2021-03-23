@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63376" started-at="2021-03-23T17:04:06 CDT" finished-at="2021-03-23T17:05:09 CDT">
+  <suite name="Suite" duration-ms="58072" started-at="2021-03-23T17:22:11 CDT" finished-at="2021-03-23T17:23:09 CDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63376" started-at="2021-03-23T17:04:06 CDT" finished-at="2021-03-23T17:05:09 CDT">
+    <test name="Test" duration-ms="58072" started-at="2021-03-23T17:22:11 CDT" finished-at="2021-03-23T17:23:09 CDT">
       <class name="Automation.Test3">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="SetUpTest" is-config="true" duration-ms="8603" started-at="2021-03-23T17:04:12 CDT" finished-at="2021-03-23T17:04:21 CDT">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="SetUpTest" is-config="true" duration-ms="4718" started-at="2021-03-23T17:22:19 CDT" finished-at="2021-03-23T17:22:23 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="BeginTest" duration-ms="20788" started-at="2021-03-23T17:04:28 CDT" finished-at="2021-03-23T17:04:49 CDT">
+        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="BeginTest" duration-ms="18069" started-at="2021-03-23T17:22:31 CDT" finished-at="2021-03-23T17:22:49 CDT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Testing for Exception] but found [Test 3: Preparing for test]]]>
@@ -24,7 +24,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at Automation.Test3.BeginTest(Test3.java:43)
+at Automation.Test3.BeginTest(Test3.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -59,21 +59,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="AfterTest" is-config="true" duration-ms="8996" started-at="2021-03-23T17:05:00 CDT" finished-at="2021-03-23T17:05:09 CDT">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="AfterTest" is-config="true" duration-ms="9334" started-at="2021-03-23T17:23:00 CDT" finished-at="2021-03-23T17:23:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- Automation.Test3 -->
       <class name="Automation.Test1">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@58c1c010]" name="SetUpTest" is-config="true" duration-ms="6259" started-at="2021-03-23T17:04:06 CDT" finished-at="2021-03-23T17:04:12 CDT">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@58c1c010]" name="SetUpTest" is-config="true" duration-ms="7613" started-at="2021-03-23T17:22:11 CDT" finished-at="2021-03-23T17:22:19 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@58c1c010]" name="Test" duration-ms="7237" started-at="2021-03-23T17:04:21 CDT" finished-at="2021-03-23T17:04:28 CDT">
+        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@58c1c010]" name="Test" duration-ms="7929" started-at="2021-03-23T17:22:23 CDT" finished-at="2021-03-23T17:22:31 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@58c1c010]" name="afterTest" is-config="true" duration-ms="10897" started-at="2021-03-23T17:04:49 CDT" finished-at="2021-03-23T17:05:00 CDT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@58c1c010]" name="afterTest" is-config="true" duration-ms="10302" started-at="2021-03-23T17:22:49 CDT" finished-at="2021-03-23T17:23:00 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

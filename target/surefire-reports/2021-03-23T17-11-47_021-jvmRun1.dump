@@ -1,4 +1,4 @@
-# Created at 2021-03-23T16:47:51.470
+# Created at 2021-03-23T17:11:53.620
 org.testng.TestNGException: 
 Cannot find class in classpath: Automation.Test1
 	at org.testng.xml.XmlClass.loadClass(XmlClass.java:75)
