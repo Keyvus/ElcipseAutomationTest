@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19020" started-at="2021-03-18T21:31:07 CDT" finished-at="2021-03-18T21:31:26 CDT">
+  <suite name="Suite" duration-ms="63376" started-at="2021-03-23T17:04:06 CDT" finished-at="2021-03-23T17:05:09 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19020" started-at="2021-03-18T21:31:07 CDT" finished-at="2021-03-18T21:31:26 CDT">
+    <test name="Test" duration-ms="63376" started-at="2021-03-23T17:04:06 CDT" finished-at="2021-03-23T17:05:09 CDT">
       <class name="Automation.Test3">
-        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@525b461a]" name="SetUpTest" is-config="true" duration-ms="2487" started-at="2021-03-18T21:31:07 CDT" finished-at="2021-03-18T21:31:09 CDT">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="SetUpTest" is-config="true" duration-ms="8603" started-at="2021-03-23T17:04:12 CDT" finished-at="2021-03-23T17:04:21 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@525b461a]" name="BeginTest" duration-ms="7762" started-at="2021-03-18T21:31:09 CDT" finished-at="2021-03-18T21:31:17 CDT">
+        <test-method status="PASS" signature="BeginTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="BeginTest" duration-ms="20788" started-at="2021-03-23T17:04:28 CDT" finished-at="2021-03-23T17:04:49 CDT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Testing for Exception] but found [Test 3: Preparing for test]]]>
@@ -59,11 +59,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@525b461a]" name="AfterTest" is-config="true" duration-ms="8714" started-at="2021-03-18T21:31:17 CDT" finished-at="2021-03-18T21:31:26 CDT">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Automation.Test3@5a4aa2f2]" name="AfterTest" is-config="true" duration-ms="8996" started-at="2021-03-23T17:05:00 CDT" finished-at="2021-03-23T17:05:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- Automation.Test3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Automation.Test1">
+        <test-method status="PASS" signature="SetUpTest()[pri:0, instance:Automation.Test1@58c1c010]" name="SetUpTest" is-config="true" duration-ms="6259" started-at="2021-03-23T17:04:06 CDT" finished-at="2021-03-23T17:04:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpTest -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Automation.Test1@58c1c010]" name="Test" duration-ms="7237" started-at="2021-03-23T17:04:21 CDT" finished-at="2021-03-23T17:04:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Automation.Test1@58c1c010]" name="afterTest" is-config="true" duration-ms="10897" started-at="2021-03-23T17:04:49 CDT" finished-at="2021-03-23T17:05:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Automation.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

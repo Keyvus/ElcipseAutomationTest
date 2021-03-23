@@ -18,6 +18,7 @@ public class Test3 {
 	 
 	 String messageExample =  "Testing for Exception";
 	 Message message  = new Message(messageExample);
+	 // Testing Commit
 
 	    @BeforeTest
 	    public void SetUpTest() {

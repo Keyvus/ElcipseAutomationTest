@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="165.297" tests="5" errors="0" skipped="4" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.248" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire3476977368921472553\surefirebooter8099620100926490271.jar C:\Windows\Temp\surefire3476977368921472553 2021-03-18T14-53-22_509-jvmRun1 surefire3494096723526994904tmp surefire_02261896071221553219tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire1430274221873736770\surefirebooter5309124795582323688.jar C:\Windows\Temp\surefire1430274221873736770 2021-03-23T16-47-53_460-jvmRun1 surefire5370730252665636333tmp surefire_05091588575779864586tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\keyvu\eclipse-workspace\AutomationTest\target\test-classes;C:\Users\keyvu\eclipse-workspace\AutomationTest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-server\3.11.0\selenium-server-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire3476977368921472553\surefirebooter8099620100926490271.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire1430274221873736770\surefirebooter5309124795582323688.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,100 +61,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="SetUpTest" classname="Automation.Test3" time="165.162">
-    <failure message="session not created&#10;from disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-L15414KC&apos;, ip: &apos;192.168.1.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x00D0B963+483]&#10;	GetHandleVerifier [0x00D0B941+449]&#10;	GetHandleVerifier [0x010B3308+3832712]&#10;	GetHandleVerifier [0x010A77E4+3784804]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AFB21+3818401]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010ADF9C+3811356]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AC392+3804178]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AB655+3800789]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010A2F46+3766214]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A6543+3780035]&#10;	GetHandleVerifier [0x010A6337+3779511]&#10;	GetHandleVerifier [0x010B4540+3837376]&#10;	GetHandleVerifier [0x010EF4BC+4078908]&#10;	GetHandleVerifier [0x010EE56C+4074988]&#10;	GetHandleVerifier [0x010EB2EB+4062059]&#10;	GetHandleVerifier [0x010CED14+3945876]&#10;	GetHandleVerifier [0x010CFBCE+3949646]&#10;	GetHandleVerifier [0x010CFB59+3949529]&#10;	Ordinal0 [0x00CCB5CC+46540]&#10;	Ordinal0 [0x00CC9F53+40787]&#10;	Ordinal0 [0x00CC9B12+39698]&#10;	GetHandleVerifier [0x00FD1468+2907368]&#10;	GetHandleVerifier [0x00E171EE+1096302]&#10;	GetHandleVerifier [0x00DD3E8D+821005]&#10;	GetHandleVerifier [0x00DD396B+819691]&#10;	GetHandleVerifier [0x00DD3881+819457]&#10;	GetHandleVerifier [0x00DFF463+998627]&#10;	BaseThreadInitThunk [0x7528FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x772C7C7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x772C7C4E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-session not created
-from disconnected: Unable to receive message from renderer
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'LAPTOP-L15414KC', ip: '192.168.1.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	GetHandleVerifier [0x00D0B963+483]
-	GetHandleVerifier [0x00D0B941+449]
-	GetHandleVerifier [0x010B3308+3832712]
-	GetHandleVerifier [0x010A77E4+3784804]
-	GetHandleVerifier [0x010A6A47+3781319]
-	GetHandleVerifier [0x010A6E36+3782326]
-	GetHandleVerifier [0x010A6765+3780581]
-	GetHandleVerifier [0x010AFB21+3818401]
-	GetHandleVerifier [0x010A6721+3780513]
-	GetHandleVerifier [0x010A74B2+3783986]
-	GetHandleVerifier [0x010A6A47+3781319]
-	GetHandleVerifier [0x010A6E36+3782326]
-	GetHandleVerifier [0x010A6765+3780581]
-	GetHandleVerifier [0x010ADF9C+3811356]
-	GetHandleVerifier [0x010A6721+3780513]
-	GetHandleVerifier [0x010A74B2+3783986]
-	GetHandleVerifier [0x010A6A47+3781319]
-	GetHandleVerifier [0x010A6E36+3782326]
-	GetHandleVerifier [0x010A6765+3780581]
-	GetHandleVerifier [0x010AC392+3804178]
-	GetHandleVerifier [0x010A6721+3780513]
-	GetHandleVerifier [0x010A74B2+3783986]
-	GetHandleVerifier [0x010A6A47+3781319]
-	GetHandleVerifier [0x010A6E36+3782326]
-	GetHandleVerifier [0x010A6765+3780581]
-	GetHandleVerifier [0x010AB655+3800789]
-	GetHandleVerifier [0x010A6721+3780513]
-	GetHandleVerifier [0x010A74B2+3783986]
-	GetHandleVerifier [0x010A6A47+3781319]
-	GetHandleVerifier [0x010A6E36+3782326]
-	GetHandleVerifier [0x010A6765+3780581]
-	GetHandleVerifier [0x010A2F46+3766214]
-	GetHandleVerifier [0x010A6721+3780513]
-	GetHandleVerifier [0x010A6543+3780035]
-	GetHandleVerifier [0x010A6337+3779511]
-	GetHandleVerifier [0x010B4540+3837376]
-	GetHandleVerifier [0x010EF4BC+4078908]
-	GetHandleVerifier [0x010EE56C+4074988]
-	GetHandleVerifier [0x010EB2EB+4062059]
-	GetHandleVerifier [0x010CED14+3945876]
-	GetHandleVerifier [0x010CFBCE+3949646]
-	GetHandleVerifier [0x010CFB59+3949529]
-	Ordinal0 [0x00CCB5CC+46540]
-	Ordinal0 [0x00CC9F53+40787]
-	Ordinal0 [0x00CC9B12+39698]
-	GetHandleVerifier [0x00FD1468+2907368]
-	GetHandleVerifier [0x00E171EE+1096302]
-	GetHandleVerifier [0x00DD3E8D+821005]
-	GetHandleVerifier [0x00DD396B+819691]
-	GetHandleVerifier [0x00DD3881+819457]
-	GetHandleVerifier [0x00DFF463+998627]
-	BaseThreadInitThunk [0x7528FA29+25]
-	RtlGetAppContainerNamedObjectPath [0x772C7C7E+286]
-	RtlGetAppContainerNamedObjectPath [0x772C7C4E+238]
-
-	at Automation.Test3.SetUpTest(Test3.java:26)
-]]></failure>
+  <testcase name="Test" classname="Automation.Test1" time="5.094">
     <system-out><![CDATA[Preparing for Test 1
 Test 3: Preparing for test
+Test 1 :Opening Chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 10570
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 15856
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616097206.781][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 2:53:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616536081.534][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 23, 2021 4:48:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 28078
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 10225
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616097208.376][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-[1616097368.578][SEVERE]: Unable to receive message from renderer
+[1616536084.725][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 23, 2021 4:48:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="BeginTest" classname="Automation.Test3" time="0">
-    <skipped message="session not created&#10;from disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-L15414KC&apos;, ip: &apos;192.168.1.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x00D0B963+483]&#10;	GetHandleVerifier [0x00D0B941+449]&#10;	GetHandleVerifier [0x010B3308+3832712]&#10;	GetHandleVerifier [0x010A77E4+3784804]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AFB21+3818401]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010ADF9C+3811356]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AC392+3804178]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AB655+3800789]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010A2F46+3766214]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A6543+3780035]&#10;	GetHandleVerifier [0x010A6337+3779511]&#10;	GetHandleVerifier [0x010B4540+3837376]&#10;	GetHandleVerifier [0x010EF4BC+4078908]&#10;	GetHandleVerifier [0x010EE56C+4074988]&#10;	GetHandleVerifier [0x010EB2EB+4062059]&#10;	GetHandleVerifier [0x010CED14+3945876]&#10;	GetHandleVerifier [0x010CFBCE+3949646]&#10;	GetHandleVerifier [0x010CFB59+3949529]&#10;	Ordinal0 [0x00CCB5CC+46540]&#10;	Ordinal0 [0x00CC9F53+40787]&#10;	Ordinal0 [0x00CC9B12+39698]&#10;	GetHandleVerifier [0x00FD1468+2907368]&#10;	GetHandleVerifier [0x00E171EE+1096302]&#10;	GetHandleVerifier [0x00DD3E8D+821005]&#10;	GetHandleVerifier [0x00DD396B+819691]&#10;	GetHandleVerifier [0x00DD3881+819457]&#10;	GetHandleVerifier [0x00DFF463+998627]&#10;	BaseThreadInitThunk [0x7528FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x772C7C7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x772C7C4E+238]&#10;"/>
-  </testcase>
-  <testcase name="AfterTest" classname="Automation.Test3" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Test" classname="Automation.Test1" time="0">
-    <skipped message="session not created&#10;from disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-L15414KC&apos;, ip: &apos;192.168.1.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x00D0B963+483]&#10;	GetHandleVerifier [0x00D0B941+449]&#10;	GetHandleVerifier [0x010B3308+3832712]&#10;	GetHandleVerifier [0x010A77E4+3784804]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AFB21+3818401]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010ADF9C+3811356]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AC392+3804178]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010AB655+3800789]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A74B2+3783986]&#10;	GetHandleVerifier [0x010A6A47+3781319]&#10;	GetHandleVerifier [0x010A6E36+3782326]&#10;	GetHandleVerifier [0x010A6765+3780581]&#10;	GetHandleVerifier [0x010A2F46+3766214]&#10;	GetHandleVerifier [0x010A6721+3780513]&#10;	GetHandleVerifier [0x010A6543+3780035]&#10;	GetHandleVerifier [0x010A6337+3779511]&#10;	GetHandleVerifier [0x010B4540+3837376]&#10;	GetHandleVerifier [0x010EF4BC+4078908]&#10;	GetHandleVerifier [0x010EE56C+4074988]&#10;	GetHandleVerifier [0x010EB2EB+4062059]&#10;	GetHandleVerifier [0x010CED14+3945876]&#10;	GetHandleVerifier [0x010CFBCE+3949646]&#10;	GetHandleVerifier [0x010CFB59+3949529]&#10;	Ordinal0 [0x00CCB5CC+46540]&#10;	Ordinal0 [0x00CC9F53+40787]&#10;	Ordinal0 [0x00CC9B12+39698]&#10;	GetHandleVerifier [0x00FD1468+2907368]&#10;	GetHandleVerifier [0x00E171EE+1096302]&#10;	GetHandleVerifier [0x00DD3E8D+821005]&#10;	GetHandleVerifier [0x00DD396B+819691]&#10;	GetHandleVerifier [0x00DD3881+819457]&#10;	GetHandleVerifier [0x00DFF463+998627]&#10;	BaseThreadInitThunk [0x7528FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x772C7C7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x772C7C4E+238]&#10;"/>
-  </testcase>
-  <testcase name="afterTest" classname="Automation.Test1" time="0">
-    <skipped/>
+  <testcase name="BeginTest" classname="Automation.Test3" time="9.201">
+    <system-out><![CDATA[Test 3: Opening Browser
+]]></system-out>
   </testcase>
 </testsuite>
