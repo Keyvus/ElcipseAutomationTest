@@ -16,6 +16,7 @@ public class Test3 {
 	 String SystemMessage2 = "Test 3: Opening Browser";
 	 String SystemMessage3 = "Test 3: Closing Browser";
 	 
+	//Testing commit
 	 String messageExample =  "Testing for Exception";
 	 Message message  = new Message(messageExample);
 
